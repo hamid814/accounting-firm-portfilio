@@ -1,17 +1,37 @@
-import { Calculator, TrendingUp, FileText, Users, PieChart, Shield, BookOpen, BarChart, Briefcase, CheckCircle2, ClipboardList, CreditCard, Globe, DollarSign, Building2, Target, GraduationCap, Layers } from 'lucide-react';
+import {
+  Calculator,
+  TrendingUp,
+  FileText,
+  Users,
+  PieChart,
+  Shield,
+  BookOpen,
+  BarChart,
+  Briefcase,
+  CheckCircle2,
+  ClipboardList,
+  CreditCard,
+  Globe,
+  DollarSign,
+  Building2,
+  Target,
+  GraduationCap,
+  Layers,
+} from 'lucide-react';
 import { motion } from 'motion/react';
 
 const allServices = [
   {
     icon: Calculator,
     title: 'مشاوره مالیاتی',
-    description: 'خدمات جامع برنامه‌ریزی و تنظیم اظهارنامه مالیاتی برای اشخاص و شرکت‌ها.',
+    description:
+      'خدمات جامع برنامه‌ریزی و تنظیم اظهارنامه مالیاتی برای اشخاص و شرکت‌ها.',
     details: [
       'برنامه‌ریزی مالیاتی',
       'تنظیم اظهارنامه مالیاتی',
       'مشاوره مالیات ارزش افزوده',
-      'حل اختلافات مالیاتی'
-    ]
+      'حل اختلافات مالیاتی',
+    ],
   },
   {
     icon: FileText,
@@ -21,8 +41,8 @@ const allServices = [
       'ثبت دفاتر روزانه',
       'تهیه صورت‌های مالی',
       'تطبیق حساب‌های بانکی',
-      'گزارش‌گیری مالی'
-    ]
+      'گزارش‌گیری مالی',
+    ],
   },
   {
     icon: TrendingUp,
@@ -32,8 +52,8 @@ const allServices = [
       'تدوین بودجه',
       'تحلیل جریان نقدی',
       'برنامه‌ریزی سرمایه‌گذاری',
-      'مدیریت ریسک مالی'
-    ]
+      'مدیریت ریسک مالی',
+    ],
   },
   {
     icon: PieChart,
@@ -43,8 +63,8 @@ const allServices = [
       'تحلیل کسب و کار',
       'بهینه‌سازی هزینه‌ها',
       'استراتژی رشد',
-      'ارزیابی عملکرد'
-    ]
+      'ارزیابی عملکرد',
+    ],
   },
   {
     icon: Shield,
@@ -54,8 +74,8 @@ const allServices = [
       'حسابرسی مستقل',
       'حسابرسی داخلی',
       'بررسی انطباق',
-      'ارزیابی کنترل‌های داخلی'
-    ]
+      'ارزیابی کنترل‌های داخلی',
+    ],
   },
   {
     icon: Users,
@@ -65,8 +85,8 @@ const allServices = [
       'محاسبه حقوق و دستمزد',
       'مدیریت لیست حقوق',
       'انطباق با قوانین کار',
-      'گزارش‌دهی به سازمان‌ها'
-    ]
+      'گزارش‌دهی به سازمان‌ها',
+    ],
   },
   {
     icon: BookOpen,
@@ -76,8 +96,8 @@ const allServices = [
       'ثبت شرکت',
       'اخذ مجوزهای لازم',
       'ثبت علائم تجاری',
-      'مشاوره انتخاب نوع شرکت'
-    ]
+      'مشاوره انتخاب نوع شرکت',
+    ],
   },
   {
     icon: BarChart,
@@ -87,8 +107,8 @@ const allServices = [
       'تحلیل سودآوری',
       'گزارش‌های مدیریتی',
       'تحلیل نقطه سربه‌سر',
-      'داشبورد مالی'
-    ]
+      'داشبورد مالی',
+    ],
   },
   {
     icon: Briefcase,
@@ -98,8 +118,8 @@ const allServices = [
       'ارزیابی پروژه‌های سرمایه‌گذاری',
       'تحلیل بازده سرمایه',
       'مطالعات امکان‌سنجی',
-      'ارزش‌گذاری کسب و کار'
-    ]
+      'ارزش‌گذاری کسب و کار',
+    ],
   },
   {
     icon: CheckCircle2,
@@ -109,8 +129,8 @@ const allServices = [
       'بررسی انطباق قوانین',
       'مدیریت ریسک انطباق',
       'آموزش پرسنل',
-      'به‌روزرسانی رویه‌ها'
-    ]
+      'به‌روزرسانی رویه‌ها',
+    ],
   },
   {
     icon: ClipboardList,
@@ -120,8 +140,8 @@ const allServices = [
       'بایگانی اسناد',
       'مدیریت دیجیتال اسناد',
       'نگهداری قانونی اسناد',
-      'بازیابی اطلاعات'
-    ]
+      'بازیابی اطلاعات',
+    ],
   },
   {
     icon: CreditCard,
@@ -131,8 +151,8 @@ const allServices = [
       'درخواست تسهیلات',
       'ارزیابی اعتبار',
       'مذاکره با بانک‌ها',
-      'مدیریت بدهی'
-    ]
+      'مدیریت بدهی',
+    ],
   },
   {
     icon: Globe,
@@ -142,8 +162,8 @@ const allServices = [
       'مشاوره ترخیص کالا',
       'محاسبه عوارض گمرکی',
       'مدیریت ارز تجاری',
-      'قوانین تجارت بین‌الملل'
-    ]
+      'قوانین تجارت بین‌الملل',
+    ],
   },
   {
     icon: DollarSign,
@@ -153,8 +173,8 @@ const allServices = [
       'ارزیابی دارایی‌های ثابت',
       'ارزش‌گذاری موجودی کالا',
       'ارزیابی املاک',
-      'تعیین ارزش منصفانه'
-    ]
+      'تعیین ارزش منصفانه',
+    ],
   },
   {
     icon: Building2,
@@ -164,8 +184,8 @@ const allServices = [
       'ارزیابی مالی شرکت‌ها',
       'مشاوره در مذاکرات',
       'تحلیل سود و زیان',
-      'مدیریت انتقال دارایی'
-    ]
+      'مدیریت انتقال دارایی',
+    ],
   },
   {
     icon: Target,
@@ -175,8 +195,8 @@ const allServices = [
       'برآورد هزینه پروژه',
       'کنترل بودجه پروژه',
       'گزارش پیشرفت مالی',
-      'تحلیل انحراف هزینه'
-    ]
+      'تحلیل انحراف هزینه',
+    ],
   },
   {
     icon: GraduationCap,
@@ -186,8 +206,8 @@ const allServices = [
       'دوره‌های حسابداری',
       'آموزش نرم‌افزارهای مالی',
       'کارگاه برنامه‌ریزی مالی',
-      'مشاوره تخصصی حرفه‌ای'
-    ]
+      'مشاوره تخصصی حرفه‌ای',
+    ],
   },
   {
     icon: Layers,
@@ -197,9 +217,9 @@ const allServices = [
       'مشاوره سرمایه‌گذاری خارجی',
       'تحلیل بازارهای جهانی',
       'مدیریت ریسک ارزی',
-      'استانداردهای حسابداری بین‌المللی'
-    ]
-  }
+      'استانداردهای حسابداری بین‌المللی',
+    ],
+  },
 ];
 
 export function ServicesPage() {
@@ -211,9 +231,9 @@ export function ServicesPage() {
           <div className="absolute top-0 right-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-white rounded-full blur-3xl"></div>
           <div className="absolute bottom-0 left-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-blue-300 rounded-full blur-3xl"></div>
         </div>
-        
+
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <motion.div 
+          <motion.div
             className="max-w-3xl mx-auto text-center"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -223,7 +243,8 @@ export function ServicesPage() {
               خدمات حسابداری و مالی
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-blue-100 leading-relaxed px-4">
-              ما مجموعه کاملی از خدمات حسابداری، مالی و مشاوره‌ای را برای پاسخگویی به تمام نیازهای کسب و کار شما ارائه می‌دهیم.
+              ما مجموعه کاملی از خدمات حسابداری، مالی و مشاوره‌ای را برای
+              پاسخگویی به تمام نیازهای کسب و کار شما ارائه می‌دهیم.
             </p>
           </motion.div>
         </div>
@@ -236,40 +257,62 @@ export function ServicesPage() {
             {allServices.map((service, index) => {
               const Icon = service.icon;
               // Alternate between blue and green accents for visual variety
-              const isGreenAccent = index % 6 === 2 || index % 6 === 4;
+              const isGreenAccent = index % 2 === 1;
               return (
-                <motion.div 
+                <motion.div
                   key={index}
                   initial={{ opacity: 0, y: 30 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: index * 0.05 }}
                   className={`group p-5 sm:p-6 lg:p-8 rounded-2xl bg-white border transition-all duration-300 relative overflow-hidden ${
-                    isGreenAccent 
-                      ? 'border-gray-100 hover:border-green-200' 
+                    isGreenAccent
+                      ? 'border-gray-100 hover:border-green-200'
                       : 'border-gray-100 hover:border-blue-200'
                   } hover:shadow-2xl`}
                 >
-                  <div className={`absolute inset-0 bg-gradient-to-br opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-                    isGreenAccent ? 'from-green-50 to-transparent' : 'from-blue-50 to-transparent'
-                  }`}></div>
-                  
+                  <div
+                    className={`absolute inset-0 bg-gradient-to-br opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
+                      isGreenAccent
+                        ? 'from-green-50 to-transparent'
+                        : 'from-blue-50 to-transparent'
+                    }`}
+                  ></div>
+
                   <div className="relative z-10">
-                    <div className={`w-14 h-14 sm:w-16 sm:h-16 bg-gradient-to-br rounded-xl flex items-center justify-center mb-4 sm:mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg ${
-                      isGreenAccent ? 'from-green-500 to-green-600' : 'from-blue-500 to-blue-600'
-                    }`}>
+                    <div
+                      className={`w-14 h-14 sm:w-16 sm:h-16 bg-gradient-to-br rounded-xl flex items-center justify-center mb-4 sm:mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg ${
+                        isGreenAccent
+                          ? 'from-green-500 to-green-600'
+                          : 'from-blue-500 to-blue-600'
+                      }`}
+                    >
                       <Icon className="text-white w-6 h-6 sm:w-7 sm:h-7" />
                     </div>
-                    <h3 className={`text-xl sm:text-2xl mb-2 sm:mb-3 text-gray-900 transition-colors ${
-                      isGreenAccent ? 'group-hover:text-green-600' : 'group-hover:text-blue-600'
-                    }`}>{service.title}</h3>
-                    <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 leading-relaxed">{service.description}</p>
+                    <h3
+                      className={`text-xl sm:text-2xl mb-2 sm:mb-3 text-gray-900 transition-colors ${
+                        isGreenAccent
+                          ? 'group-hover:text-green-600'
+                          : 'group-hover:text-blue-600'
+                      }`}
+                    >
+                      {service.title}
+                    </h3>
+                    <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 leading-relaxed">
+                      {service.description}
+                    </p>
                     <ul className="space-y-1.5 sm:space-y-2">
                       {service.details.map((detail, idx) => (
-                        <li key={idx} className="flex items-start gap-2 text-gray-700">
-                          <CheckCircle2 size={16} className={`flex-shrink-0 mt-0.5 sm:mt-1 sm:w-[18px] sm:h-[18px] ${
-                            isGreenAccent ? 'text-green-600' : 'text-blue-600'
-                          }`} />
+                        <li
+                          key={idx}
+                          className="flex items-start gap-2 text-gray-700"
+                        >
+                          <CheckCircle2
+                            size={16}
+                            className={`flex-shrink-0 mt-0.5 sm:mt-1 sm:w-[18px] sm:h-[18px] ${
+                              isGreenAccent ? 'text-green-600' : 'text-blue-600'
+                            }`}
+                          />
                           <span className="text-sm sm:text-base">{detail}</span>
                         </li>
                       ))}
@@ -287,7 +330,7 @@ export function ServicesPage() {
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 sm:w-96 h-64 sm:h-96 bg-white rounded-full blur-3xl"></div>
         </div>
-        
+
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -299,9 +342,10 @@ export function ServicesPage() {
               آماده شروع کار با ما هستید؟
             </h2>
             <p className="text-base sm:text-lg md:text-xl text-blue-100 mb-6 sm:mb-8 max-w-2xl mx-auto leading-relaxed px-4">
-              با ما تماس بگیرید تا در مورد نیازهای حسابداری و مالی خود مشاوره دریافت کنید.
+              با ما تماس بگیرید تا در مورد نیازهای حسابداری و مالی خود مشاوره
+              دریافت کنید.
             </p>
-            <a 
+            <a
               href="/#contact"
               className="bg-white text-blue-600 px-6 sm:px-8 py-3 sm:py-4 rounded-xl hover:bg-gray-100 transition-all inline-flex items-center gap-2 shadow-lg hover:shadow-xl text-sm sm:text-base"
             >
